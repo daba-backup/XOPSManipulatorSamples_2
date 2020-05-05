@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<addon_list>
+    <building_kt.mif>
+        <mission_name>Building KT</mission_name>
+        <mission_formal_name>Building KT</mission_formal_name>
+        <bd1_filename>.\addon\BuildingKT\map.bd1</bd1_filename>
+        <pd1_filename>.\addon\BuildingKT\kt.pd1</pd1_filename>
+        <sky_type>NIGHT</sky_type>
+        <extra_hitcheck_flag>false</extra_hitcheck_flag>
+        <darken_screen_flag>false</darken_screen_flag>
+        <article_info_filename>!</article_info_filename>
+        <image1_filename>.\data\briefing\np.bmp</image1_filename>
+        <image2_filename>!</image2_filename>
+        <briefing_text>
+            <line0>ハゲを倒せ。</line0>
+        </briefing_text>
+    </building_kt.mif>
+    <back_alley_2.mif>
+        <mission_name>Back Alley KT2</mission_name>
+        <mission_formal_name>Back Alley KT2</mission_formal_name>
+        <bd1_filename>.\addon\BackAlley\map.bd1</bd1_filename>
+        <pd1_filename>.\addon\BackAlley\kt_2.pd1</pd1_filename>
+        <sky_type>WILDERNESS</sky_type>
+        <extra_hitcheck_flag>false</extra_hitcheck_flag>
+        <darken_screen_flag>false</darken_screen_flag>
+        <article_info_filename>!</article_info_filename>
+        <image1_filename>.\data\briefing\np.bmp</image1_filename>
+        <image2_filename>!</image2_filename>
+        <briefing_text>
+            <line0>ゲイツを倒せ。</line0>
+        </briefing_text>
+    </back_alley_2.mif>
+    <back_alley_1.mif>
+        <mission_name>Back Alley KT1</mission_name>
+        <mission_formal_name>Back Alley KT1</mission_formal_name>
+        <bd1_filename>.\addon\BackAlley\map.bd1</bd1_filename>
+        <pd1_filename>.\addon\BackAlley\kt_1.pd1</pd1_filename>
+        <sky_type>WILDERNESS</sky_type>
+        <extra_hitcheck_flag>false</extra_hitcheck_flag>
+        <darken_screen_flag>false</darken_screen_flag>
+        <article_info_filename>!</article_info_filename>
+        <image1_filename>.\data\briefing\np.bmp</image1_filename>
+        <image2_filename>!</image2_filename>
+        <briefing_text>
+            <line0>ゲイツを倒せ。</line0>
+        </briefing_text>
+    </back_alley_1.mif>
+    <building_kt_hard.mif>
+        <mission_name>Building KT_H</mission_name>
+        <mission_formal_name>Building KT hard</mission_formal_name>
+        <bd1_filename>.\addon\BuildingKT\map.bd1</bd1_filename>
+        <pd1_filename>.\addon\BuildingKT\kt_hard.pd1</pd1_filename>
+        <sky_type>NIGHT</sky_type>
+        <extra_hitcheck_flag>false</extra_hitcheck_flag>
+        <darken_screen_flag>false</darken_screen_flag>
+        <article_info_filename>!</article_info_filename>
+        <image1_filename>.\data\briefing\np.bmp</image1_filename>
+        <image2_filename>!</image2_filename>
+        <briefing_text>
+            <line0>ハゲを倒せ。</line0>
+        </briefing_text>
+    </building_kt_hard.mif>
+    <cemetery_ext.mif>
+        <mission_name>Cemetery EXT</mission_name>
+        <mission_formal_name>Cemetery EXT</mission_formal_name>
+        <bd1_filename>.\addon\Cemetery\map.bd1</bd1_filename>
+        <pd1_filename>.\addon\Cemetery\ext.pd1</pd1_filename>
+        <sky_type>NIGHT</sky_type>
+        <extra_hitcheck_flag>false</extra_hitcheck_flag>
+        <darken_screen_flag>false</darken_screen_flag>
+        <article_info_filename>!</article_info_filename>
+        <image1_filename>.\data\briefing\np.bmp</image1_filename>
+        <image2_filename>!</image2_filename>
+        <briefing_text>
+            <line0>ゾンビをすべて排除せよ。</line0>
+        </briefing_text>
+    </cemetery_ext.mif>
+    <back_alley_3.mif>
+        <mission_name>Back Alley KT3</mission_name>
+        <mission_formal_name>Back Alley KT3</mission_formal_name>
+        <bd1_filename>.\addon\BackAlley\map.bd1</bd1_filename>
+        <pd1_filename>.\addon\BackAlley\kt_3.pd1</pd1_filename>
+        <sky_type>NIGHT</sky_type>
+        <extra_hitcheck_flag>false</extra_hitcheck_flag>
+        <darken_screen_flag>false</darken_screen_flag>
+        <article_info_filename>!</article_info_filename>
+        <image1_filename>.\data\briefing\np.bmp</image1_filename>
+        <image2_filename>!</image2_filename>
+        <briefing_text>
+            <line0>ゲイツを倒せ。</line0>
+        </briefing_text>
+    </back_alley_3.mif>
+    <clubroom_def.mif>
+        <mission_name>Clubroom DEF</mission_name>
+        <mission_formal_name>Clubroom DEF</mission_formal_name>
+        <bd1_filename>.\addon\Clubroom\map.bd1</bd1_filename>
+        <pd1_filename>.\addon\Clubroom\def.pd1</pd1_filename>
+        <sky_type>EVENING</sky_type>
+        <extra_hitcheck_flag>false</extra_hitcheck_flag>
+        <darken_screen_flag>false</darken_screen_flag>
+        <article_info_filename>!</article_info_filename>
+        <image1_filename>.\data\briefing\np.bmp</image1_filename>
+        <image2_filename>!</image2_filename>
+        <briefing_text>
+            <line0>部長を守ってやってください。</line0>
+        </briefing_text>
+    </clubroom_def.mif>
+    <clubroom_ext_2.mif>
+        <mission_name>Clubroom EXT2</mission_name>
+        <mission_formal_name>Clubroom EXT2</mission_formal_name>
+        <bd1_filename>.\addon\Clubroom\map.bd1</bd1_filename>
+        <pd1_filename>.\addon\Clubroom\ext_2.pd1</pd1_filename>
+        <sky_type>NIGHT</sky_type>
+        <extra_hitcheck_flag>false</extra_hitcheck_flag>
+        <darken_screen_flag>false</darken_screen_flag>
+        <article_info_filename>!</article_info_filename>
+        <image1_filename>.\data\briefing\np.bmp</image1_filename>
+        <image2_filename>!</image2_filename>
+        <briefing_text>
+            <line0>もはやワケワカメ</line0>
+            <line1>誰か説明してくれ</line1>
+        </briefing_text>
+    </clubroom_ext_2.mif>
+    <cemetery_kt_easy.mif>
+        <mission_name>Cemetery KT E</mission_name>
+        <mission_formal_name>Cemetery KT Easy</mission_formal_name>
+        <bd1_filename>.\addon\Cemetery\map.bd1</bd1_filename>
+        <pd1_filename>.\addon\Cemetery\kt_easy.pd1</pd1_filename>
+        <sky_type>NIGHT</sky_type>
+        <extra_hitcheck_flag>false</extra_hitcheck_flag>
+        <darken_screen_flag>false</darken_screen_flag>
+        <article_info_filename>!</article_info_filename>
+        <image1_filename>.\addon\Cemetery\kyouso.jpg</image1_filename>
+        <image2_filename>!</image2_filename>
+        <briefing_text>
+            <line0>新興宗教団体がこの墓地を拠点としている。</line0>
+            <line1>教祖への再三の出頭命令にも拘らず、</line1>
+            <line2>依然として活動を続けているようだ。</line2>
+            <line3/>
+            <line4>これ以上の治安の悪化を避けるためには、</line4>
+            <line5>教祖を殺害するより他にない。</line5>
+            <line6/>
+            <line7>教祖を殺害し開始地点に戻れ。</line7>
+            <line8/>
+            <line9>(プレイヤーは戦闘用ロボット)</line9>
+        </briefing_text>
+    </cemetery_kt_easy.mif>
+    <clubroom_ext_1.mif>
+        <mission_name>Clubroom EXT1</mission_name>
+        <mission_formal_name>Clubroom EXT1</mission_formal_name>
+        <bd1_filename>.\addon\Clubroom\map.bd1</bd1_filename>
+        <pd1_filename>.\addon\Clubroom\ext_1.pd1</pd1_filename>
+        <sky_type>WILDERNESS</sky_type>
+        <extra_hitcheck_flag>false</extra_hitcheck_flag>
+        <darken_screen_flag>false</darken_screen_flag>
+        <article_info_filename>!</article_info_filename>
+        <image1_filename>.\data\briefing\np.bmp</image1_filename>
+        <image2_filename>!</image2_filename>
+        <briefing_text>
+            <line0>大量のゾンビが部室内に発生した。</line0>
+            <line1>とりあえずゾンビを全部倒そうかな。</line1>
+            <line2/>
+            <line3>部長は死んでも別に(ry</line3>
+        </briefing_text>
+    </clubroom_ext_1.mif>
+    <cemetery_kt.mif>
+        <mission_name>Cemetery KT</mission_name>
+        <mission_formal_name>Cemetery KT</mission_formal_name>
+        <bd1_filename>.\addon\Cemetery\map.bd1</bd1_filename>
+        <pd1_filename>.\addon\Cemetery\kt.pd1</pd1_filename>
+        <sky_type>NIGHT</sky_type>
+        <extra_hitcheck_flag>false</extra_hitcheck_flag>
+        <darken_screen_flag>false</darken_screen_flag>
+        <article_info_filename>!</article_info_filename>
+        <image1_filename>.\addon\Cemetery\kyouso.jpg</image1_filename>
+        <image2_filename>!</image2_filename>
+        <briefing_text>
+            <line0>新興宗教団体がこの墓地を拠点としている。</line0>
+            <line1>教祖への再三の出頭命令にも拘らず、</line1>
+            <line2>依然として活動を続けているようだ。</line2>
+            <line3/>
+            <line4>これ以上の治安の悪化を避けるためには、</line4>
+            <line5>教祖を殺害するより他にない。</line5>
+            <line6/>
+            <line7>教祖を殺害し開始地点に戻れ。</line7>
+        </briefing_text>
+    </cemetery_kt.mif>
+</addon_list>

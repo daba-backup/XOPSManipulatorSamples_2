@@ -1,0 +1,12 @@
+"Mission name","Mission formal name","BD1 filename","PD1 filename","Sky type","Extra hitcheck flag","Darken screen flag","Article info filename","Image 1 filename","Image 2 filename","Briefing text"
+"Building KT","Building KT",".\addon\BuildingKT\map.bd1",".\addon\BuildingKT\kt.pd1",NIGHT,false,false,"!",".\data\briefing\np.bmp","!","ハゲを倒せ。<br>",
+"Back Alley KT2","Back Alley KT2",".\addon\BackAlley\map.bd1",".\addon\BackAlley\kt_2.pd1",WILDERNESS,false,false,"!",".\data\briefing\np.bmp","!","ゲイツを倒せ。<br>",
+"Back Alley KT1","Back Alley KT1",".\addon\BackAlley\map.bd1",".\addon\BackAlley\kt_1.pd1",WILDERNESS,false,false,"!",".\data\briefing\np.bmp","!","ゲイツを倒せ。<br>",
+"Building KT_H","Building KT hard",".\addon\BuildingKT\map.bd1",".\addon\BuildingKT\kt_hard.pd1",NIGHT,false,false,"!",".\data\briefing\np.bmp","!","ハゲを倒せ。<br>",
+"Cemetery EXT","Cemetery EXT",".\addon\Cemetery\map.bd1",".\addon\Cemetery\ext.pd1",NIGHT,false,false,"!",".\data\briefing\np.bmp","!","ゾンビをすべて排除せよ。<br>",
+"Back Alley KT3","Back Alley KT3",".\addon\BackAlley\map.bd1",".\addon\BackAlley\kt_3.pd1",NIGHT,false,false,"!",".\data\briefing\np.bmp","!","ゲイツを倒せ。<br>",
+"Clubroom DEF","Clubroom DEF",".\addon\Clubroom\map.bd1",".\addon\Clubroom\def.pd1",EVENING,false,false,"!",".\data\briefing\np.bmp","!","部長を守ってやってください。<br>",
+"Clubroom EXT2","Clubroom EXT2",".\addon\Clubroom\map.bd1",".\addon\Clubroom\ext_2.pd1",NIGHT,false,false,"!",".\data\briefing\np.bmp","!","もはやワケワカメ<br>誰か説明してくれ<br>",
+"Cemetery KT E","Cemetery KT Easy",".\addon\Cemetery\map.bd1",".\addon\Cemetery\kt_easy.pd1",NIGHT,false,false,"!",".\addon\Cemetery\kyouso.jpg","!","新興宗教団体がこの墓地を拠点としている。<br>教祖への再三の出頭命令にも拘らず、<br>依然として活動を続けているようだ。<br><br>これ以上の治安の悪化を避けるためには、<br>教祖を殺害するより他にない。<br><br>教祖を殺害し開始地点に戻れ。<br><br>(プレイヤーは戦闘用ロボット)<br>",
+"Clubroom EXT1","Clubroom EXT1",".\addon\Clubroom\map.bd1",".\addon\Clubroom\ext_1.pd1",WILDERNESS,false,false,"!",".\data\briefing\np.bmp","!","大量のゾンビが部室内に発生した。<br>とりあえずゾンビを全部倒そうかな。<br><br>部長は死んでも別に(ry<br>",
+"Cemetery KT","Cemetery KT",".\addon\Cemetery\map.bd1",".\addon\Cemetery\kt.pd1",NIGHT,false,false,"!",".\addon\Cemetery\kyouso.jpg","!","新興宗教団体がこの墓地を拠点としている。<br>教祖への再三の出頭命令にも拘らず、<br>依然として活動を続けているようだ。<br><br>これ以上の治安の悪化を避けるためには、<br>教祖を殺害するより他にない。<br><br>教祖を殺害し開始地点に戻れ。<br>",
