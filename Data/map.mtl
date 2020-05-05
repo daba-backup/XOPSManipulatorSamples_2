@@ -1,0 +1,77 @@
+newmtl flooring_0
+Ka 1.0 1.0 1.0
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+map_Kd flooring.jpg
+Ns 0.0
+d 1.0
+newmtl carpet_1
+Ka 1.0 1.0 1.0
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+map_Kd carpet.jpg
+Ns 0.0
+d 1.0
+newmtl ornament1_2
+Ka 1.0 1.0 1.0
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+map_Kd ornament1.jpg
+Ns 0.0
+d 1.0
+newmtl ornament2_3
+Ka 1.0 1.0 1.0
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+map_Kd ornament2.jpg
+Ns 0.0
+d 1.0
+newmtl stone_tile_4
+Ka 1.0 1.0 1.0
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+map_Kd stone_tile.jpg
+Ns 0.0
+d 1.0
+newmtl wood_tile_5
+Ka 1.0 1.0 1.0
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+map_Kd wood_tile.jpg
+Ns 0.0
+d 1.0
+newmtl wood_6
+Ka 1.0 1.0 1.0
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+map_Kd wood.jpg
+Ns 0.0
+d 1.0
+newmtl snow_7
+Ka 1.0 1.0 1.0
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+map_Kd snow.jpg
+Ns 0.0
+d 1.0
+newmtl water_8
+Ka 1.0 1.0 1.0
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+map_Kd water.png
+Ns 0.0
+d 1.0
+newmtl glass_9
+Ka 1.0 1.0 1.0
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+map_Kd glass.png
+Ns 0.0
+d 1.0
+newmtl unknown_10_10
+Ka 1.0 1.0 1.0
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+map_Kd unknown_10
+Ns 0.0
+d 1.0
