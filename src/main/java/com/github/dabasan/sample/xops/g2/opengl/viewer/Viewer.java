@@ -7,7 +7,6 @@ import com.github.dabasan.joglf.gl.input.keyboard.KeyboardEnum;
 import com.github.dabasan.joglf.gl.input.mouse.MouseEnum;
 import com.github.dabasan.joglf.gl.model.Model3DFunctions;
 import com.github.dabasan.joglf.gl.window.JOGLFWindow;
-import com.github.dabasan.sample.xops.g2.opengl.FreeCamera;
 import com.github.dabasan.tool.MathFunctions;
 
 class Viewer extends JOGLFWindow {
@@ -24,10 +23,10 @@ class Viewer extends JOGLFWindow {
 		final float INITIAL_HROT = MathFunctions.DegToRad(180.0f);
 		camera.SetRotation(INITIAL_VROT, INITIAL_HROT);
 
-		final float SCALE = 1.7f / 20.0f;
+		final float MODEL_SCALE = 1.7f / 20.0f;
 		model_handle = Model3DFunctions
 				.LoadModel("./Data/Model/BD1/map2/temp.bd1");
-		Model3DFunctions.RescaleModel(model_handle, VGet(SCALE, SCALE, SCALE));
+		Model3DFunctions.RescaleModel(model_handle, VGet(MODEL_SCALE, MODEL_SCALE, MODEL_SCALE));
 	}
 
 	@Override

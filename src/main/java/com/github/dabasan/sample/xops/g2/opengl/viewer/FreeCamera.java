@@ -1,4 +1,4 @@
-package com.github.dabasan.sample.xops.g2.opengl;
+package com.github.dabasan.sample.xops.g2.opengl.viewer;
 
 import static com.github.dabasan.basis.vector.VectorFunctions.*;
 
@@ -6,7 +6,7 @@ import com.github.dabasan.basis.vector.Vector;
 import com.github.dabasan.joglf.gl.front.CameraFront;
 import com.github.dabasan.tool.MathFunctions;
 
-public class FreeCamera {
+class FreeCamera {
 	private Vector position;
 	private float v_rotate;
 	private float h_rotate;
