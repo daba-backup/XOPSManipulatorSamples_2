@@ -49,6 +49,16 @@ class FirstPersonViewer extends JOGLFWindow {
 		seconds_per_frame = 1.0f / WindowCommonInfo.GetFPS();
 
 		// DynamicsWorldの作成
+		this.SetupDynamicsWorld();
+		// マップの作成
+		this.SetupMap();
+		// カメラの作成
+		this.SetupCamera();
+
+		CameraFront.SetCameraNearFar(0.3f, 100.0f);
+		FogFront.SetFogStartEnd(50.0f, 100.0f);
+	}
+	private void SetupDynamicsWorld() {
 		BroadphaseInterface broadphase = new DbvtBroadphase();
 		DefaultCollisionConfiguration collision_configuration = new DefaultCollisionConfiguration();
 		CollisionDispatcher dispatcher = new CollisionDispatcher(
@@ -59,8 +69,8 @@ class FirstPersonViewer extends JOGLFWindow {
 		dynamics_world = new DiscreteDynamicsWorld(dispatcher, broadphase,
 				solver, collision_configuration);
 		dynamics_world.setGravity(new Vector3f(0.0f, -9.81f, 0.0f));
-
-		// マップの作成
+	}
+	private void SetupMap() {
 		final float MODEL_SCALE = 1.7f / 20.0f;
 		model_handle = Model3DFunctions
 				.LoadModel("./Data/Model/BD1/map0/temp.bd1");
@@ -92,8 +102,8 @@ class FirstPersonViewer extends JOGLFWindow {
 
 			dynamics_world.addRigidBody(rb);
 		}
-
-		// カメラの作成
+	}
+	private void SetupCamera() {
 		final float CAMERA_WIDTH = 0.3f;
 		final float CAMERA_HEIGHT = 1.7f;
 		final float CAMERA_HALF_HEIGHT = CAMERA_HEIGHT * 0.5f;
@@ -120,9 +130,6 @@ class FirstPersonViewer extends JOGLFWindow {
 		camera.setJumpSpeed(1.5f);
 		camera.setMaxSlope(MathFunctions.DegToRad(50.0f));
 		camera.SetYOffset(CAMERA_HALF_HEIGHT * 0.8f);
-
-		CameraFront.SetCameraNearFar(0.3f, 100.0f);
-		FogFront.SetFogStartEnd(50.0f, 100.0f);
 	}
 
 	@Override
