@@ -7,7 +7,7 @@ public class ViewerMain {
 		new ViewerMain();
 	}
 	public ViewerMain() {
-		JOGLFWindowInterface window = new Viewer();
+		JOGLFWindowInterface window = new Viewer2();
 		window.SetTitle("Viewer");
 	}
 }

@@ -9,6 +9,7 @@ import com.github.dabasan.joglf.gl.model.Model3DFunctions;
 import com.github.dabasan.joglf.gl.window.JOGLFWindow;
 import com.github.dabasan.tool.MathFunctions;
 
+//マップのみを描画する。
 class Viewer extends JOGLFWindow {
 	private FreeCamera camera;
 
@@ -26,7 +27,8 @@ class Viewer extends JOGLFWindow {
 		final float MODEL_SCALE = 1.7f / 20.0f;
 		model_handle = Model3DFunctions
 				.LoadModel("./Data/Model/BD1/map2/temp.bd1");
-		Model3DFunctions.RescaleModel(model_handle, VGet(MODEL_SCALE, MODEL_SCALE, MODEL_SCALE));
+		Model3DFunctions.RescaleModel(model_handle,
+				VGet(MODEL_SCALE, MODEL_SCALE, MODEL_SCALE));
 	}
 
 	@Override
