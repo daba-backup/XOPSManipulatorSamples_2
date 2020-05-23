@@ -54,7 +54,7 @@
 		<dependency>
 			<groupId>com.github.dabasan</groupId>
 			<artifactId>joglframework-gl</artifactId>
-			<version>11.2.0</version>
+			<version>11.4.0</version>
 		</dependency>
 
 		<dependency>
