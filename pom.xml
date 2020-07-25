@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.github.dabasan</groupId>
-	<artifactId>xopsmanipulator2samples</artifactId>
+	<artifactId>xopsmanipulatorsamples_2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>xopsmanipulator2samples</name>
+	<name>xopsmanipulatorsamples_2</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
